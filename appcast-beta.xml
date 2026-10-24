@@ -4,29 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>MacBattery</title>
         <item>
-            <title>Wattelier 1.6.3-beta.1</title>
-            <pubDate>Sat, 24 Oct 2026 23:24:31 +0300</pubDate>
+            <title>Wattelier 1.6.3-beta.2</title>
+            <pubDate>Sun, 25 Oct 2026 00:08:24 +0300</pubDate>
             <link>https://github.com/Enes-Somuncular/Wattelier-Releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.1</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.6.3b1</sparkle:version>
-            <sparkle:shortVersionString>1.6.3-beta.1</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.2</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.6.3b2</sparkle:version>
+            <sparkle:shortVersionString>1.6.3-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 1
+            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 2
 
-- macOS 26 ve üzerinde yerel Liquid Glass yüzeyleri; macOS 13–15 için uyumlu materyal görünümü.
-- Küçük halka, yüzde ve şarj bilgisini yan yana gösteren kompakt pil özeti.
-- Adaptörden Mac’e ve pile doğru ilerleyen, çatallanan elektrik akışı.
-- Enerji çerçeveye ulaştığında iki yönde dolaşan kıvılcımlar; her yeni darbe çerçevenin parıltısını tazeler.
-- Her kolun hızı kendi anlık watt değerine bağlıdır. Ölçümü olmayan veya şarj almayan pile enerji akışı çizilmez.
-- Panel kapalıyken, Mac uyurken ve Hareketi Azalt açıkken sürekli animasyon durur. Saydamlığı Azalt ve yüksek kontrast ayarları desteklenir.
+- Genel bakışın cam görünümü yenilendi: daha saydam yüzeyler, ışığı yakalayan ince kenarlar ve mavi-mor ışık geçişleri.
+- Pil sağlığı ve döngü sayısı güç akışı kartında birleştirildi; enerji analizi düğmesi cam görünüme uyarlandı.
+- Kompakt pil özeti ve panel boyutu düzenlendi; genel bakışın alt düğmesi tamamen görünür.
+- Watt değerine göre hızlanan elektrik akışı ve Mac/pil çerçevelerini besleyen kıvılcımlar korunuyor.
+- Saydamlığı Azalt, yüksek kontrast ve eski macOS sürümleri için uyumlu yüzeyler korunuyor.
 
 Bu bir deneme sürümüdür. Kararlı kanal 1.6.2 olarak kalır. Şarj sınırı macOS Pil ayarlarından yönetilir; Wattelier sınırı değiştirmez veya okumaz.
 </description>
-            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.1/Wattelier-1.6.3-beta.1.zip" length="3189980" type="application/octet-stream" sparkle:edSignature="+ZyVadI+9orsFyh8GpxyDbN8p/benADV5zbJb44N8KXjCLNOK+t5dWdaoItvaV1grf8xWIy2G3MHO9QNEvNWCA=="></enclosure>
+            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.2/Wattelier-1.6.3-beta.2.zip" length="3201133" type="application/octet-stream" sparkle:edSignature="pstK0lsn0zxEGUQSuP/JJtizqkYvgRHIJSPU7g8LV7SCq19qQRBo9P0xGdEKl3hKBi4jszAngtwqK83JpvbfAg=="></enclosure>
         <sparkle:channel>beta</sparkle:channel></item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: STp/O9a/zZaKrH1zpdNoAZCHK7xtLiCSeZBhmbC/j7FAksSx25/YJPKtZdHoUj2u3OrUpkthIZUMPm1tyRzeDw==
-length: 2412
+edSignature: lbp4XWPgNdaxsmXulYf5UT9afFSZKPm3AnAFLlBbQD+GuiqYgxt3oaQK+/oPUpp3Qhvj8yg+iZUa+jcRBBovAw==
+length: 2323
 -->
