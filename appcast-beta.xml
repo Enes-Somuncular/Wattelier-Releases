@@ -4,29 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>MacBattery</title>
         <item>
-            <title>Wattelier 1.6.3-beta.3</title>
-            <pubDate>Sun, 25 Oct 2026 18:54:08 +0300</pubDate>
+            <title>Wattelier 1.6.3-beta.4</title>
+            <pubDate>Sun, 25 Oct 2026 21:04:51 +0300</pubDate>
             <link>https://github.com/Enes-Somuncular/Wattelier-Releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.3</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.6.3b3</sparkle:version>
-            <sparkle:shortVersionString>1.6.3-beta.3</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.4</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.6.3b4</sparkle:version>
+            <sparkle:shortVersionString>1.6.3-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 3
+            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 4
 
-- Küçük panel: Pil, Güç akışı, Analiz ve Pil sağlığı sayfaları oklarla gezilebilir. Aynı panel genişletilir; son boyut hatırlanır.
-- macOS cam yüzeyleri ve açık/koyu görünümde okunabilir sistem renkleri.
-- Ayarlarda Sistem, Açık ve Koyu tema seçimi; tercih yeniden başlatmada korunur.
-- Menü çubuğundaki şarj yıldırımı pilin içine yerleştirildi.
-- Gereksiz enerji analizi düğmesi kaldırıldı; analiz üst menüden erişilebilir.
-- Elektrik akışı gerçek kart sınırlarına ulaşır; watt değerine göre hızlanan mevcut animasyon korunur.
+- Menü çubuğundaki pil simgesi klasik kısa gövdesine ve dışarıdaki bağlantı işaretine döndü.
+- Küçük panelde pil seviyesi, şarj durumu, pil sağlığı ve döngü sayısı tek Pil sayfasında toplandı. Teknik ayrıntılar aynı karttan açılır.
+- Küçük panel artık Pil, Güç akışı ve Analiz olmak üzere üç sayfadan oluşur.
+- Alt gezinme okları görünür, 44×44 puanlık düğmelere dönüştürüldü; boş alanları da tıklama alanına dahil edildi.
+- Sistem / Açık / Koyu tema seçimi ve watt değerine göre hızlanan elektrik animasyonu korunur.
 
 Bu bir beta sürümüdür. Kararlı kanal 1.6.2 olarak kalır. Şarj sınırı macOS Pil ayarlarından yönetilir; Wattelier sınırı değiştirmez veya okumaz.
 </description>
-            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.3/Wattelier-1.6.3-beta.3.zip" length="3252517" type="application/octet-stream" sparkle:edSignature="38ifvc7H5oFs3aEdrOrRXkjmhUihrjk9yisJwyVPSul7sJkL72jAxfmEOzmuKxmyS6Ew+D7nromL0idG+HdTBg=="></enclosure>
+            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.4/Wattelier-1.6.3-beta.4.zip" length="3254219" type="application/octet-stream" sparkle:edSignature="PvKMZRebK6Hx/IULtogbY3a3xbQXBPjQslresorc4yK0+ogPAZ6lcRDmRlZPDhyYgrSA841h367OS45r6IAHAw=="></enclosure>
         <sparkle:channel>beta</sparkle:channel></item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DEtvn0GR7H3BlNTJaPWmdespI+KlRVxwxaoR5Bz5yoAYvNIM2zyiE2P9ad5GDdyiY8shOVDL8hLSxIN12kK7Bg==
-length: 2322
+edSignature: OFdFl/Y/Hd7h2yfWBgX4wUgTxBuO1QRjStEnFBkA64XaLcxjxP4U7SYOi2xWckqRRtBc90HD/3+GTiTLgkCMDA==
+length: 2325
 -->
