@@ -4,28 +4,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>MacBattery</title>
         <item>
-            <title>Wattelier 1.6.3-beta.4</title>
-            <pubDate>Sun, 25 Oct 2026 21:04:51 +0300</pubDate>
+            <title>Wattelier 1.6.3-beta.5</title>
+            <pubDate>Tue, 27 Oct 2026 23:46:48 +0300</pubDate>
             <link>https://github.com/Enes-Somuncular/Wattelier-Releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.4</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.6.3b4</sparkle:version>
-            <sparkle:shortVersionString>1.6.3-beta.4</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.5</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.6.3b5</sparkle:version>
+            <sparkle:shortVersionString>1.6.3-beta.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 4
+            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 5
 
-- Menü çubuğundaki pil simgesi klasik kısa gövdesine ve dışarıdaki bağlantı işaretine döndü.
-- Küçük panelde pil seviyesi, şarj durumu, pil sağlığı ve döngü sayısı tek Pil sayfasında toplandı. Teknik ayrıntılar aynı karttan açılır.
-- Küçük panel artık Pil, Güç akışı ve Analiz olmak üzere üç sayfadan oluşur.
-- Alt gezinme okları görünür, 44×44 puanlık düğmelere dönüştürüldü; boş alanları da tıklama alanına dahil edildi.
-- Sistem / Açık / Koyu tema seçimi ve watt değerine göre hızlanan elektrik animasyonu korunur.
+- Yeni standart enerji analizi: 30 günlük ayrıntılı kayıt ve 90 günlük saatlik özet; uygulama yeniden açıldığında geçmiş korunur.
+- Pil ve tahmini güç için ayrı grafikler, ortak tarih seçimi, ekran açık/kapalı çalışma ve uyku zaman çizelgesi.
+- Uyku oturumlarında süre, başlangıç/bitiş pil seviyesi ve yüzde puanı farkı. Erişilebilen sistem kayıtları bakım/ağ gibi uyanma kategorileriyle gösterilir; bir uygulamaya kesin tüketim atfedilmez.
+- Uygulama etkisi aynı tarih aralığına bağlı CPU temelli tahmin olarak gösterilir; uygulama kaydı isteğe bağlı kalır.
+- Ölçülmeyen dönemler sıfır tüketim sayılmaz; şarjla karışan veya sınır ölçümü eksik uyku oturumlarında kesin kayıp hesaplanmaz.
+- Küçük ek kayıtlar ve saatlik atomik dosya yenileme ile disk yazımı azaltıldı. Silinen veya kayıt kapalıyken oluşan sistem olaylarının yeniden içe alınması engellendi.
 
-Bu bir beta sürümüdür. Kararlı kanal 1.6.2 olarak kalır. Şarj sınırı macOS Pil ayarlarından yönetilir; Wattelier sınırı değiştirmez veya okumaz.
+Deneme notları:
+- Yeni uyku raporları kayıt açıkken gerçekleşen uyku/uyanma oturumlarıyla oluşur; eski boşluklar otomatik uyku raporuna dönüştürülmez.
+- Kapak kapalı gerçek gece uykusu, karışık güç senaryoları ve uzun süreli kaynak kullanımı bu beta ile doğrulanacaktır; önceden geçmiş testler gibi sunulmaz.
+- Uyku farkı yüzde puanıdır, ölçülmüş Wh değildir. Güç ve uygulama etkisi model tahminidir; ekranın tek başına kesin W tüketimi gösterilmez. Sistem kayıtlarının kapsamı sınırlı olabilir.
+
+Bu bir beta sürümüdür. Kararlı kanal 1.6.2 olarak kalır. Yönetici izni, uyku engelleme veya güç/firmware ayarı değişikliği gerekmez. Veriler bu Mac’te saklanır. Mevcut uygulama kimliği, kullanıcı verileri ve Sparkle anahtarı korunur.
 </description>
-            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.4/Wattelier-1.6.3-beta.4.zip" length="3254219" type="application/octet-stream" sparkle:edSignature="PvKMZRebK6Hx/IULtogbY3a3xbQXBPjQslresorc4yK0+ogPAZ6lcRDmRlZPDhyYgrSA841h367OS45r6IAHAw=="></enclosure>
+            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.5/Wattelier-1.6.3-beta.5.zip" length="3466326" type="application/octet-stream" sparkle:edSignature="SlfyYAUu6fJcvqS/9VCDhou6FTHUqn4H0FaqCVUJYpWb0EwmVZHsJ6gzmntkI9Uqi/aUulveXx0Gj8Fg1uGQAA=="></enclosure>
         <sparkle:channel>beta</sparkle:channel></item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: OFdFl/Y/Hd7h2yfWBgX4wUgTxBuO1QRjStEnFBkA64XaLcxjxP4U7SYOi2xWckqRRtBc90HD/3+GTiTLgkCMDA==
-length: 2325
+edSignature: mXnp3S73/Piz+8VoYGBxk6orDKI9jyF4FxZmRnDkwSwXf+qXR10OC3DNT97U89v82+U1fXty9926/g3ISedOCg==
+length: 3329
 -->
