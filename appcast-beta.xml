@@ -4,34 +4,45 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>MacBattery</title>
         <item>
-            <title>Wattelier 1.6.3-beta.5</title>
-            <pubDate>Tue, 27 Oct 2026 23:46:48 +0300</pubDate>
+            <title>Wattelier 1.6.3</title>
+            <pubDate>Wed, 28 Oct 2026 10:54:59 +0300</pubDate>
             <link>https://github.com/Enes-Somuncular/Wattelier-Releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3-beta.5</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.6.3b5</sparkle:version>
-            <sparkle:shortVersionString>1.6.3-beta.5</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/Enes-Somuncular/Wattelier-Releases/releases/tag/v1.6.3</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.6.3</sparkle:version>
+            <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"># Wattelier 1.6.3 Beta 5
+            <description sparkle:format="markdown"># Wattelier 1.6.3 — Enerjinin geçmişini gör
 
-- Yeni standart enerji analizi: 30 günlük ayrıntılı kayıt ve 90 günlük saatlik özet; uygulama yeniden açıldığında geçmiş korunur.
-- Pil ve tahmini güç için ayrı grafikler, ortak tarih seçimi, ekran açık/kapalı çalışma ve uyku zaman çizelgesi.
-- Uyku oturumlarında süre, başlangıç/bitiş pil seviyesi ve yüzde puanı farkı. Erişilebilen sistem kayıtları bakım/ağ gibi uyanma kategorileriyle gösterilir; bir uygulamaya kesin tüketim atfedilmez.
-- Uygulama etkisi aynı tarih aralığına bağlı CPU temelli tahmin olarak gösterilir; uygulama kaydı isteğe bağlı kalır.
-- Ölçülmeyen dönemler sıfır tüketim sayılmaz; şarjla karışan veya sınır ölçümü eksik uyku oturumlarında kesin kayıp hesaplanmaz.
-- Küçük ek kayıtlar ve saatlik atomik dosya yenileme ile disk yazımı azaltıldı. Silinen veya kayıt kapalıyken oluşan sistem olaylarının yeniden içe alınması engellendi.
+1.6.3, Beta 5’te denenen kodun kararlı sürüm kimliğiyle yeniden derlenmiş yayınıdır. Mevcut tercihler, geçmiş kayıtları ve güncelleme kimliği korunur.
 
-Deneme notları:
-- Yeni uyku raporları kayıt açıkken gerçekleşen uyku/uyanma oturumlarıyla oluşur; eski boşluklar otomatik uyku raporuna dönüştürülmez.
-- Kapak kapalı gerçek gece uykusu, karışık güç senaryoları ve uzun süreli kaynak kullanımı bu beta ile doğrulanacaktır; önceden geçmiş testler gibi sunulmaz.
-- Uyku farkı yüzde puanıdır, ölçülmüş Wh değildir. Güç ve uygulama etkisi model tahminidir; ekranın tek başına kesin W tüketimi gösterilmez. Sistem kayıtlarının kapsamı sınırlı olabilir.
+## Yeni enerji analizi
 
-Bu bir beta sürümüdür. Kararlı kanal 1.6.2 olarak kalır. Yönetici izni, uyku engelleme veya güç/firmware ayarı değişikliği gerekmez. Veriler bu Mac’te saklanır. Mevcut uygulama kimliği, kullanıcı verileri ve Sparkle anahtarı korunur.
+- 30 günlük ayrıntılı geçmiş ve 90 günlük saatlik özet. Grafikler uygulama yeniden açıldığında kaybolmaz.
+- Son saat, bugün, 7 gün, 30 gün veya özel tarih aralığı. Grafikte seçilen dönem; özet, uyku oturumları, olaylar ve uygulama etkisini birlikte filtreler.
+- Pil seviyesi ve tahmini Mac gücü ayrı grafiklerde; ekran açık, ekran kapalı çalışma ve uyku durumları ortak zaman çizelgesinde.
+- Uyku oturumlarında süre, başlangıç/bitiş pil seviyesi ve net yüzde puanı farkı. Erişilebilen sistem kayıtlarında bakım ve ağ erişimi gibi uyanma kategorileri.
+- Uygulama etkisi, isteğe bağlı yerel kayıtla CPU temelli tahmin olarak karşılaştırılır.
+
+## Daha küçük, daha rahat
+
+- Menü çubuğundan açılan küçük panelde Pil, Güç akışı ve Analiz sayfaları; genişletilip küçültülebilen ve son boyutunu hatırlayan görünüm.
+- Pil seviyesi, sağlık ve döngü sayısı tek Pil kartında. Daha büyük gezinme düğmeleri ve klasik kısa menü çubuğu pil simgesi.
+- Sistem, Açık ve Koyu tema seçenekleri; okunabilir yerel cam yüzeyler.
+- Watt değerine göre hızlanan elektrik akışı, Mac ve pil kartlarına ulaştığında güçlenen çerçeve animasyonu. Hareketi Azalt desteği.
+
+## Ölçümleri doğru yorumla
+
+Uyku farkı yüzde puanıdır; ölçülmüş Wh veya uygulama bazında kesin tüketim değildir. Güç değerleri model tahminidir. Eksik kayıtlar sıfır tüketim sayılmaz; şarjla karışan veya sınır ölçümü eksik oturumlar açıkça belirtilir. Sistem kayıtları her uyanmayı veya nedeni göstermeyebilir. Ekran açık süresi izlenir; ekranın tek başına kesin W tüketimi ölçülmez.
+
+Pil/analiz kayıtları yereldir; uygulama kaydı varsayılan kapalıdır. Ölçüm için Mac uyandırılmaz, yönetici izni veya güç/firmware yazımı kullanılmaz. Şarj hatırlatma hedefi gerçek şarj sınırı değildir; Wattelier yalnızca macOS Pil ayarlarını açar.
+
+Güncellemeden sonra uyku raporu oluşturmak için uygulamayı açık, Pil ve analiz geçmişini kaydet seçeneğini etkin bırakıp bir uyku/uyanma oturumu gerçekleştir. Kaydedilmemiş eski boşluklar sonradan uyku raporuna dönüştürülmez.
 </description>
-            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3-beta.5/Wattelier-1.6.3-beta.5.zip" length="3466326" type="application/octet-stream" sparkle:edSignature="SlfyYAUu6fJcvqS/9VCDhou6FTHUqn4H0FaqCVUJYpWb0EwmVZHsJ6gzmntkI9Uqi/aUulveXx0Gj8Fg1uGQAA=="></enclosure>
-        <sparkle:channel>beta</sparkle:channel></item>
+            <enclosure url="https://github.com/Enes-Somuncular/Wattelier-Releases/releases/download/v1.6.3/Wattelier-1.6.3.zip" length="3466314" type="application/octet-stream" sparkle:edSignature="8RNbNXgGBO5arI/pvXlxGrfTG477CBtJxU/ayWwPOZ8YIDgz7UvXLEjdYf4W4kCJmDSVbP1eA4wS9uqv0kBSAQ=="></enclosure>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mXnp3S73/Piz+8VoYGBxk6orDKI9jyF4FxZmRnDkwSwXf+qXR10OC3DNT97U89v82+U1fXty9926/g3ISedOCg==
-length: 3329
+edSignature: daqFOBuLJZsc81e5QOSVKQZYSeueyMHhmC+vh0yYkkjGwvGUw5kNhZlu8JQo4kydOwaBF3f/UsSwCnEn9mdxCg==
+length: 3936
 -->
